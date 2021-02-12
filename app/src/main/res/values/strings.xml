@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="now_playing_desc">Lebih mudah untuk mengetahui\nFilm yang sedang tampil</string>
+    <string name="presale_desc">Tidak khawatir ketinggalan\nUpdate Film terbaru</string>
+    <string name="cashless_desc">Gunakan E-Wallet untuk\ntransaksi tiket nonton</string>
+    <string name="version_1_0">Version 1.0</string>
+    <string name="lewati_perkenalan">LEWATI PERKENALAN</string>
+    <string name="lanjutkan">LANJUTKAN</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="cash_less">Cash less</string>
+    <string name="sign_in">Sign In</string>
+    <string name="username">Username</string>
+    <string name="masuk_akun">MASUK AKUN</string>
+    <string name="daftar_akun_baru">DAFTAR AKUN BARU</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="pre_sale">Pre Sale</string>
+</resources>
