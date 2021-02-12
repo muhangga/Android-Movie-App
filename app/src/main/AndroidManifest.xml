@@ -9,20 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Signin.SignInActivity"></activity>
-        <activity android:name=".Signin.SignUpActivity"></activity>
+        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Signin.SignInActivity" />
+        <activity android:name=".Signin.SignUpActivity" />
+        <activity android:name=".SignUpPhotoScreenActivity" />
         <activity android:name=".OnBoarding.OnboardingOneActivity">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-         </activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".OnBoarding.OnboardingTwoActivity" />
         <activity android:name=".OnBoarding.OnboardingThreeActivity" />
-    <activity android:name=".SplashScreenActivity"></activity>
-
-
+        <activity android:name=".SplashScreenActivity" />
     </application>
 
 </manifest>
