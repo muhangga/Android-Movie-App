@@ -14,8 +14,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:text="@string/muhamad_angga"
-        android:textColor="@color/colorWhite"
-        android:textSize="24sp"
+        style="@style/TextView.header"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -103,6 +102,7 @@
             android:layout_weight="1" />
 
         <ImageView
+            android:id="@+id/ic_detail"
             android:src="@drawable/ic_tiket_active"
             android:layout_width="0dp"
             android:layout_height="match_parent"

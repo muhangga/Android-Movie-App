@@ -1,4 +1,4 @@
-package com.example.movieapp.Signin
+package com.example.movieapp.sign
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

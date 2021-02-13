@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.movieapp.R
-import com.example.movieapp.Signin.SignInActivity
+import com.example.movieapp.sign.SignInActivity
 import kotlinx.android.synthetic.main.activity_onboarding_two.btn_lanjut
 import kotlinx.android.synthetic.main.activity_onboarding_two.btn_lewati
 

@@ -11,9 +11,9 @@
         android:theme="@style/AppTheme">
         <activity android:name=".DetailActivity"></activity>
         <activity android:name=".HomeActivity" />
-        <activity android:name=".Signin.SignInActivity" />
-        <activity android:name=".Signin.SignUpActivity" />
-        <activity android:name=".SignUpPhotoScreenActivity" />
+        <activity android:name=".sign.SignInActivity" />
+        <activity android:name=".sign.SignUpActivity" />
+        <activity android:name=".sign.SignUpPhotoScreenActivity" />
         <activity android:name=".OnBoarding.OnboardingOneActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

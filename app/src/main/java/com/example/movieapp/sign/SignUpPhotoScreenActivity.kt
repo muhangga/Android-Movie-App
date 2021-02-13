@@ -1,9 +1,10 @@
-package com.example.movieapp
+package com.example.movieapp.sign
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_sign_up_photo.*
+import com.example.movieapp.HomeActivity
+import com.example.movieapp.R
 
 class SignUpPhotoScreenActivity : AppCompatActivity() {
 
