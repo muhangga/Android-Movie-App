@@ -30,12 +30,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_beli_tiket"
+        android:id="@+id/btn_upload_photo"
+        style="@style/ButtonBlueGrey"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:text="@string/upload_photo"
-        style="@style/ButtonBlueGrey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

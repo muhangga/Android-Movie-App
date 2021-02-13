@@ -40,12 +40,12 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_lanjut"
+        android:id="@+id/btn_bayar_sekarang"
         style="@style/ButtonPink"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="BAYAR SEKARANG"
         android:layout_marginBottom="16dp"
+        android:text="BAYAR SEKARANG"
         app:layout_constraintBottom_toTopOf="@+id/btn_beli_tiket"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

@@ -3,16 +3,16 @@ package com.example.movieapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_detail.*
+import kotlinx.android.synthetic.main.activity_pilih_bangku.*
 
-class DetailActivity : AppCompatActivity() {
+class PilihBangkuActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail)
+        setContentView(R.layout.activity_pilih_bangku)
 
-        btn_pilih_bangku.setOnClickListener {
-            val intent = Intent(this, PilihBangkuActivity::class.java)
+        btn_beli_tiket.setOnClickListener {
+            val intent = Intent(this, CheckoutActivity::class.java)
             startActivity(intent)
         }
     }

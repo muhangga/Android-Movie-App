@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.movieapp.HomeActivity
 import com.example.movieapp.R
+import kotlinx.android.synthetic.main.activity_sign_up_photo.*
 
 class SignUpPhotoScreenActivity : AppCompatActivity() {
 
