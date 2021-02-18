@@ -40,7 +40,7 @@ class PilihBangkuActivity : AppCompatActivity() {
         cekKursi()
 
         btn_beli_tiket.setOnClickListener {
-            val intent = Intent(this, CheckoutActivity::class.java)
+            val intent = Intent(this, CheckoutActivity::class.java).putExtra("data", dataList)
             startActivity(intent)
         }
     }

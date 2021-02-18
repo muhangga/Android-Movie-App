@@ -29,7 +29,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_beli_tiket"
+        android:id="@+id/btn_batalkan"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
@@ -44,9 +44,9 @@
         style="@style/ButtonPink"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="8dp"
         android:text="BAYAR SEKARANG"
-        app:layout_constraintBottom_toTopOf="@+id/btn_beli_tiket"
+        app:layout_constraintBottom_toTopOf="@+id/btn_batalkan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -89,50 +89,17 @@
 
     <TextView
         android:id="@+id/textView24"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="24dp"
-        style="@style/TextView.bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView21"
-        tools:text="05 March, 10 PM" />
-
-    <TextView
-        android:id="@+id/textView29"
         style="@style/TextView.bold"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="24dp"
+        android:text="05 March, 10 PM"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView27"
-        tools:text="IDR 100.000" />
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
     <TextView
-        android:id="@+id/textView31"
-        style="@style/TextView.bold"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView28"
-        tools:text="IDR 120.000" />
-
-    <TextView
-        android:id="@+id/textView33"
-        style="@style/TextView.bold"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView30"
-        tools:text="IDR 20.000" />
-
-    <TextView
-        android:id="@+id/textView36"
+        android:id="@+id/tv_saldo"
         style="@style/TextView.bold"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -151,9 +118,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
+        android:text="Bogor Trade Mall"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView22"
-        tools:text="Bogor Trade Mall" />
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
     <TextView
         android:id="@+id/textView27"
@@ -166,31 +133,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
-    <TextView
-        android:id="@+id/textView28"
-        style="@style/TextView.Silver"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_checkout"
+        android:layout_width="0dp"
         android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
         android:layout_marginTop="8dp"
-        android:drawableStart="@drawable/ic_event_seat"
-        android:drawablePadding="10dp"
-        android:text="Seat No C1"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView27" />
-
-    <TextView
-        android:id="@+id/textView30"
-        style="@style/TextView.Silver"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
-        android:drawableStart="@drawable/ic_event_seat"
-        android:drawablePadding="10dp"
-        android:text="Seat No C2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
     <TextView
         android:id="@+id/textView35"
@@ -206,17 +158,6 @@
         app:layout_constraintTop_toBottomOf="@+id/textView34" />
 
     <TextView
-        android:id="@+id/textView32"
-        style="@style/TextView.Silver"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="16dp"
-        android:text="Total Harus Dibayar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView30" />
-
-    <TextView
         android:id="@+id/textView34"
         style="@style/TextView.medium"
         android:layout_width="wrap_content"
@@ -225,6 +166,6 @@
         android:layout_marginTop="32dp"
         android:text="E-Wallet"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+        app:layout_constraintTop_toBottomOf="@+id/rv_checkout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
