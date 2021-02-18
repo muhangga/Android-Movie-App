@@ -13,7 +13,7 @@ import android.widget.Toast
 import com.example.movieapp.HomeActivity
 import kotlinx.android.synthetic.main.activity_sign_in.*
 import com.example.movieapp.R
-import com.example.movieapp.sign.SignUpActivity
+import com.example.movieapp.sign.signup.SignUpActivity
 import com.example.movieapp.utils.Preferences
 import com.google.firebase.database.*
 
@@ -32,7 +32,7 @@ class SignInActivity : AppCompatActivity() {
         mDatabase = FirebaseDatabase.getInstance().getReference("User")
         preference = Preferences(this)
 
-        preference.setValues("onboarding", "1")
+
         if (preference.getValues("status").equals("1")) {
             finishAffinity()
             startActivity(Intent(this@SignInActivity, HomeActivity::class.java))
