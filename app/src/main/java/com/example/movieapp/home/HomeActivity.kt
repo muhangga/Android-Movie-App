@@ -6,13 +6,12 @@
 
 package com.example.movieapp.home
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import androidx.fragment.app.Fragment
-import com.example.movieapp.DetailActivity
 import com.example.movieapp.R
+import com.example.movieapp.home.dashboard.DashboardFragment
 import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : AppCompatActivity() {
