@@ -10,7 +10,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.example.movieapp.HomeActivity
+import com.example.movieapp.home.HomeActivity
 import kotlinx.android.synthetic.main.activity_sign_in.*
 import com.example.movieapp.R
 import com.example.movieapp.sign.signup.SignUpActivity
@@ -87,7 +87,6 @@ class SignInActivity : AppCompatActivity() {
                         Toast.makeText(this@SignInActivity, "Password Anda Salah, Silakan coba lagi",
                             Toast.LENGTH_LONG).show()
                     }
-
                 }
             }
             override fun onCancelled(databaseError: DatabaseError) {
