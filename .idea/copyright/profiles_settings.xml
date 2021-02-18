@@ -1,0 +1,11 @@
+<component name="CopyrightManager">
+  <settings default="Muhamad Angga">
+    <module2copyright>
+      <element module="All" copyright="Muhamad Angga" />
+    </module2copyright>
+    <LanguageOptions name="Kotlin">
+      <option name="separateBefore" value="true" />
+      <option name="separateAfter" value="true" />
+    </LanguageOptions>
+  </settings>
+</component>

@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.movieapp.R
-import com.example.movieapp.sign.SignInActivity
+import com.example.movieapp.sign.signin.SignInActivity
 import kotlinx.android.synthetic.main.activity_onboarding_three.*
 
 class OnboardingThreeActivity : AppCompatActivity() {
@@ -14,6 +14,7 @@ class OnboardingThreeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_onboarding_three)
 
         btn_lanjut.setOnClickListener {
+            finishAffinity()
             val lanjut = Intent(this, SignInActivity::class.java)
             startActivity(lanjut)
         }

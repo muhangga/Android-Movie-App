@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBlue"
-    tools:context=".sign.SignInActivity">
+    tools:context=".sign.signin.SignInActivity">
 
     <ImageView
         android:id="@+id/imageView4"
@@ -20,7 +20,7 @@
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="150dp"
-        android:layout_height="100dp"
+        android:layout_height="80dp"
         android:layout_marginTop="32dp"
         android:src="@drawable/logo_mov"
         app:layout_constraintEnd_toEndOf="parent"

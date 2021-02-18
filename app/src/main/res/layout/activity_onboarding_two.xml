@@ -8,24 +8,13 @@
     tools:context=".OnBoarding.OnboardingOneActivity">
 
     <Button
-        android:id="@+id/btn_lewati"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:text="@string/lewati_perkenalan"
-        style="@style/ButtonBlueGrey"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
         android:id="@+id/btn_lanjut"
+        style="@style/ButtonPink"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
         android:text="@string/lanjutkan"
-        style="@style/ButtonPink"
-        app:layout_constraintBottom_toTopOf="@+id/btn_lewati"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
