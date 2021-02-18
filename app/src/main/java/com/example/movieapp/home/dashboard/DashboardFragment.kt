@@ -7,6 +7,7 @@
 package com.example.movieapp.home.dashboard
 
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -17,6 +18,7 @@ import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
+import com.example.movieapp.DetailActivity
 
 import com.example.movieapp.R
 import com.example.movieapp.models.FilmModel
@@ -60,7 +62,7 @@ class DashboardFragment : Fragment() {
         if (preferences.getValues("saldo") != null) {
             currency(preferences.getValues("saldo")!!.toDouble(), tv_saldo)
         } else {
-            tv_saldo.setText("  0")
+            tv_saldo.setText("0")
         }
 
         Glide.with(this)
@@ -87,11 +89,15 @@ class DashboardFragment : Fragment() {
                 }
 
                 rv_now_playing.adapter = NowPlayingAdapter(dataList) {
-
+                    var intent = Intent(context, DetailActivity::class.java)
+                        .putExtra("data", it)
+                    startActivity(intent)
                 }
 
                 rv_coming_soon.adapter = ComingSoonAdapter(dataList) {
-
+                    var intent = Intent(context, DetailActivity::class.java)
+                        .putExtra("data", it)
+                    startActivity(intent)
                 }
             }
 

@@ -1,8 +1,16 @@
-package com.example.movieapp
+/*
+ *
+ * Written by Muhamad Angga
+ *
+ */
+
+package com.example.movieapp.checkout
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.movieapp.EditProfileActivity
+import com.example.movieapp.R
 import kotlinx.android.synthetic.main.activity_checkout.*
 
 class CheckoutActivity : AppCompatActivity() {
