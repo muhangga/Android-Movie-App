@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="Avengers: Infinity War"
         style="@style/TextView.medium"
         app:layout_constraintStart_toStartOf="parent"
@@ -102,15 +102,15 @@
         android:id="@+id/tv_rate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
-        android:textSize="18sp"
         android:drawableLeft="@drawable/ic_star_yellow_24dp"
+        android:drawablePadding="10dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iv_poster"
-        android:textColor="@color/colorWhite"
-        android:drawablePadding="10dp"
-        tools:text="4.5"/>
+        tools:text="4.5" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

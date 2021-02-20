@@ -21,7 +21,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".checkout.CheckoutSuccessActivity"></activity>
+        <activity android:name=".home.setting.SettingActivity"></activity>
+        <activity android:name=".home.tiket.TiketActivity" />
+        <activity android:name=".checkout.CheckoutSuccessActivity" />
         <activity android:name=".checkout.CheckoutActivity" />
         <activity android:name=".checkout.PilihBangkuActivity" />
         <activity android:name=".DetailActivity" />
@@ -40,6 +42,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

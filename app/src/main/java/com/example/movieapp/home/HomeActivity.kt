@@ -12,6 +12,8 @@ import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import com.example.movieapp.R
 import com.example.movieapp.home.dashboard.DashboardFragment
+import com.example.movieapp.home.setting.SettingFragment
+import com.example.movieapp.home.tiket.TiketFragment
 import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : AppCompatActivity() {
